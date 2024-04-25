@@ -10,7 +10,7 @@ Dependencies:
 - fastembed
 
 ```bash
-pip install langchain streamlit streamlit_chat chromadb pypdf fastembed
+pip install langchain streamlit streamlit_chat chromadb pymupdf fastembed 
 ```
 
 Blog post: https://blog.duy-huynh.com/build-your-own-rag-and-run-them-locally/

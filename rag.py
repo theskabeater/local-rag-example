@@ -33,7 +33,7 @@ class ChatPDF:
         doc = fitz.open(pdf_file_path)
         chunks = []
         for i in range(doc.page_count):
-            page = doc.load_page(1)
+            page = doc.load_page(i)
             text = page.get_text()
             chunk = Document(page_content=text)
             chunks.append(chunk)
